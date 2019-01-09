@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".Shop_25">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:layout_marginBottom="0dp"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="8dp">
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/viewpager_shop25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="360dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="360dp"
+                    android:orientation="vertical"
+                    android:padding="15.5dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="9.8dp"
+                                android:layout_height="10dp"
+                                android:src="@drawable/ic_flag" />
+                        </LinearLayout>
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="right|center_vertical"
+                            android:src="@drawable/ic_more" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="25dp"
+                        android:gravity="bottom"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="315dp"
+                            android:layout_height="60dp"
+                            android:fontFamily="@font/sf_pro_display_regular"
+                            android:lineSpacingExtra="5dp"
+                            android:text="Modern women can now step out in style wearing this shirt from Meira. Lending you a smart look all day long."
+                            android:textColor="#ffffff"
+                            android:textSize="13.5sp" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="7dp"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="0dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="bottom"
+                                android:layout_weight="1"
+                                android:fontFamily="@font/sf_pro_display_regular"
+                                android:text="Meira"
+                                android:textColor="#FFFFFF"
+                                android:textSize="10.6sp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="10dp"
+                                android:background="@drawable/shape_rectangle"
+                                android:fontFamily="@font/ari"
+                                android:gravity="center"
+                                android:letterSpacing="0.5"
+                                android:paddingLeft="14dp"
+                                android:paddingTop="6.5dp"
+                                android:paddingRight="14dp"
+                                android:paddingBottom="5.5dp"
+                                android:text="SHIRT"
+                                android:textColor="#ffffff"
+                                android:textSize="6sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <com.viewpagerindicator.LinePageIndicator
+                    android:id="@+id/indicator_line"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_gravity="bottom"
+                    app:gapWidth="8dp"
+                    app:lineWidth="105dp"
+                    app:selectedColor="@color/White_indicator"
+                    app:unselectedColor="@color/grey_indicator" />
+
+
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical"
+                android:paddingLeft="15.4dp"
+                android:paddingBottom="14.6dp">
+
+                <TextView
+                    android:layout_width="320dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:text="Classy and on-trend in olive colour, this gorgeous textured shirt kurti from."
+                    android:textColor="#000000"
+                    android:textSize="23sp" />
+
+                <TextView
+                    android:layout_width="330dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:fontFamily="@font/sf_pro_display_regular"
+                    android:lineSpacingExtra="10dp"
+                    android:text="Look handsome wearing this shirt from Lombard. Made from linen, this shirt ensures maximum comfort. Featuring striking appeal, this shirt can be stylishly clubbed with chinos look."
+                    android:textColor="#6e6e70"
+                    android:textSize="10.6sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#338d8d8d" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fcfcfc"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15.8dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="SIZE"
+                        android:textColor="#000000"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="7.5dp"
+                        android:layout_height="7.5dp"
+                        android:layout_marginRight="15.5dp"
+                        android:src="@drawable/ic_close" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#338d8d8d" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fcfcfc">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/size_recyclerview_25"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="7dp"
+                    android:overScrollMode="never" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="330dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15.5dp"
+                android:layout_marginTop="21dp"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:lineSpacingExtra="10dp"
+                android:text="Show off your love for smart dressing as you adorn this formal shirt from the house of Turtle. Fashioned using the ultimate material for comfort- cotton, this formal shirt will keep."
+                android:textColor="#6e6e70"
+                android:textSize="10.6sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#338d8d8d" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fcfcfc"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15.8dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="COLORS"
+                        android:textColor="#000000"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="7.5dp"
+                        android:layout_height="7.5dp"
+                        android:layout_marginRight="15.5dp"
+                        android:src="@drawable/ic_close" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#338d8d8d" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/color_recycler_25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fcfcfc"
+                android:overScrollMode="never"
+                android:scrollbars="none" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:orientation="vertical">
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#338d8d8d" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#fcfcfc"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal"
+                    android:paddingLeft="15.8dp"
+                    android:paddingTop="17dp"
+                    android:paddingBottom="17dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="COMMENTS, 19"
+                        android:textColor="#000000"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:fontFamily="@font/sf_pro_display_regular"
+                        android:text="Add"
+                        android:textColor="#000000"
+                        android:textSize="11sp" />
+
+                    <ImageView
+                        android:layout_width="7.5dp"
+                        android:layout_height="7.5dp"
+                        android:layout_marginRight="15.5dp"
+                        android:src="@drawable/ic_arrow_forward_grey" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="#338d8d8d" />
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/comment_recyclerview25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingLeft="15.5dp"
+                android:paddingTop="18.5dp"
+                android:paddingRight="14dp"
+                android:paddingBottom="18.5dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_like"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/ari"
+                    android:text="127"
+                    android:textColor="#000000"
+                    android:textSize="8.6sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="32dp"
+                    android:layout_weight="1"
+                    android:drawableLeft="@drawable/ic_shape_comment25"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/ari"
+                    android:text="19 comments"
+                    android:textColor="#000000"
+                    android:textSize="8.6sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawableLeft="@drawable/ic_share_25"
+                    android:drawablePadding="15dp"
+                    android:fontFamily="@font/ari"
+                    android:text="13"
+                    android:textColor="#000000"
+                    android:textSize="8.6sp" />
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+    <!--<android.support.design.widget.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="23dp"
+        android:layout_marginBottom="30.5dp"
+        android:backgroundTint="#2962ff"
+        android:src="@drawable/ic_add_white_24dp"
+        app:borderWidth="0dp"
+        app:elevation="0dp"
+        app:fabCustomSize="40dp" />
+-->
+
+</RelativeLayout>
